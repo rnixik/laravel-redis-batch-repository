@@ -1,0 +1,45 @@
+{
+    "name": "rnix/laravel-redis-batch-repository",
+    "description": "Provides repository implementation for Laravel Queue Batch",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Nix",
+            "email": "rnix@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/bus": "^8.0",
+        "nesbot/carbon": "^2.31"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "orchestra/testbench": "^6.0",
+        "predis/predis": "^1.1",
+        "friendsofphp/php-cs-fixer": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "RomanNix\\LaravelRedisBatchRepository\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RomanNix\\LaravelRedisBatchRepository\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RomanNix\\LaravelRedisBatchRepository\\LaravelRedisBatchRepositoryServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "cs-fixer": "vendor/bin/php-cs-fixer fix src"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
