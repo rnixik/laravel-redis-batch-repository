@@ -1,6 +1,6 @@
 {
     "name": "rnix/laravel-redis-batch-repository",
-    "description": "Provides repository implementation for Laravel Queue Batch",
+    "description": "Provides redis repository implementation for Laravel Queue Batch",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RomanNix\\LaravelRedisBatchRepository\\LaravelRedisBatchRepositoryServiceProvider"
+                "RedisBatchRepositoryServiceProvider"
             ]
         }
     },

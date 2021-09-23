@@ -4,10 +4,11 @@ namespace RomanNix\LaravelRedisBatchRepository;
 
 use Illuminate\Bus\BatchFactory;
 use Illuminate\Bus\BatchRepository;
+use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 use RomanNix\LaravelRedisBatchRepository\Bus\RedisBatchRepository;
 
-class LaravelRedisBatchRepositoryServiceProvider extends ServiceProvider
+class RedisBatchRepositoryServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     public function register()
     {
@@ -20,5 +21,12 @@ class LaravelRedisBatchRepositoryServiceProvider extends ServiceProvider
                 config('queue.batching.table', 'laravel_batches:')
             );
         });
+    }
+
+    public function provides()
+    {
+        return [
+            BatchRepository::class,
+        ];
     }
 }
