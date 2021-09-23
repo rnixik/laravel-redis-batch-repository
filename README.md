@@ -27,3 +27,7 @@ php artisan queue:prune-redis-batches --hours=24 --unfinished=72
 ```
 make tests
 ```
+
+## License
+
+The MIT Licence
