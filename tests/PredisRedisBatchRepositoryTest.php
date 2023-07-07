@@ -1,6 +1,6 @@
 <?php
 
-namespace RomanNix\LaravelRedisBatchRepository\Tests;
+namespace AgentSoftware\LaravelRedisBatchRepository\Tests;
 
 class PredisRedisBatchRepositoryTest extends RedisBatchRepositoryTest
 {

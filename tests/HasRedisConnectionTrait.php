@@ -1,6 +1,6 @@
 <?php
 
-namespace RomanNix\LaravelRedisBatchRepository\Tests;
+namespace AgentSoftware\LaravelRedisBatchRepository\Tests;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Redis\Connections\PhpRedisConnection;

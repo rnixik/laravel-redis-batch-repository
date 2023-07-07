@@ -1,6 +1,6 @@
 <?php
 
-namespace RomanNix\LaravelRedisBatchRepository\Tests;
+namespace AgentSoftware\LaravelRedisBatchRepository\Tests;
 
 use Carbon\Carbon;
 use Illuminate\Bus\Batch;
@@ -11,7 +11,7 @@ use Illuminate\Redis\Connections\PhpRedisConnection;
 use Illuminate\Redis\Connections\PredisConnection;
 use Illuminate\Support\Collection;
 use Orchestra\Testbench\TestCase;
-use RomanNix\LaravelRedisBatchRepository\Bus\RedisBatchRepository;
+use AgentSoftware\LaravelRedisBatchRepository\Bus\RedisBatchRepository;
 
 class RedisBatchRepositoryTest extends TestCase
 {

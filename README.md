@@ -4,14 +4,14 @@ Replaces default Illuminate\Bus\DatabaseBatchRepository with implementation base
 
 ## Requirements:
 
-* php 8
-* laravel 8
+* php 8.1
+* laravel 10
 * phpredis or predis
 
 ## Installation
 
 ```
-composer require "rnix/laravel-redis-batch-repository"
+composer require "agentsoftare/laravel-redis-batch-repository"
 ```
 
 ## Pruning

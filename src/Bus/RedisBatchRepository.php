@@ -1,6 +1,6 @@
 <?php
 
-namespace RomanNix\LaravelRedisBatchRepository\Bus;
+namespace AgentSoftware\LaravelRedisBatchRepository\Bus;
 
 use Carbon\Carbon;
 use Carbon\CarbonImmutable;

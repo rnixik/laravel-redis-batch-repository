@@ -1,12 +1,12 @@
 <?php
 
-namespace RomanNix\LaravelRedisBatchRepository;
+namespace AgentSoftware\LaravelRedisBatchRepository;
 
 use Illuminate\Bus\BatchFactory;
 use Illuminate\Bus\BatchRepository;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
-use RomanNix\LaravelRedisBatchRepository\Bus\RedisBatchRepository;
+use AgentSoftware\LaravelRedisBatchRepository\Bus\RedisBatchRepository;
 
 class RedisBatchRepositoryServiceProvider extends ServiceProvider implements DeferrableProvider
 {

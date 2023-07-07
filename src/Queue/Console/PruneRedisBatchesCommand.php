@@ -1,10 +1,10 @@
 <?php
 
-namespace RomanNix\LaravelRedisBatchRepository\Queue\Console;
+namespace AgentSoftware\LaravelRedisBatchRepository\Queue\Console;
 
 use Carbon\Carbon;
 use Illuminate\Console\Command;
-use RomanNix\LaravelRedisBatchRepository\Bus\RedisBatchRepository;
+use AgentSoftware\LaravelRedisBatchRepository\Bus\RedisBatchRepository;
 
 class PruneRedisBatchesCommand extends Command
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace RomanNix\LaravelRedisBatchRepository;
+namespace AgentSoftware\LaravelRedisBatchRepository;
 
 use Illuminate\Support\ServiceProvider;
-use RomanNix\LaravelRedisBatchRepository\Queue\Console\PruneRedisBatchesCommand;
+use AgentSoftware\LaravelRedisBatchRepository\Queue\Console\PruneRedisBatchesCommand;
 
 class ConsoleCommandsServiceProvider extends ServiceProvider
 {
